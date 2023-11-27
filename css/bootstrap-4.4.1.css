@@ -42,10 +42,11 @@
 }
 
 html {
-  font-family: sans-serif;
-  line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
-  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    font-family: sans-serif;
+    line-height: 1.15;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    text-align: left;
 }
 
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
@@ -53,14 +54,14 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 }
 
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 1.5;
-  color: #212529;
-  text-align: left;
-  background-color: #fff;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: center;
+    background-color: #fff;
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -153,14 +154,14 @@ sup {
 }
 
 a {
-  color: #007bff;
-  text-decoration: none;
-  background-color: transparent;
+    color: #000000;
+    text-decoration: none;
+    background-color: transparent;
 }
 
 a:hover {
-  color: #0056b3;
-  text-decoration: underline;
+    color: #E05300;
+    text-decoration: underline;
 }
 
 a:not([href]) {
@@ -169,8 +170,8 @@ a:not([href]) {
 }
 
 a:not([href]):hover {
-  color: inherit;
-  text-decoration: none;
+    color: #FFFFFF;
+    text-decoration: none;
 }
 
 pre,
@@ -244,7 +245,8 @@ textarea {
 
 button,
 input {
-  overflow: visible;
+    overflow: visible;
+    text-align: center;
 }
 
 button,
@@ -2471,9 +2473,10 @@ textarea.form-control {
     margin-bottom: 0;
   }
   .form-inline .form-control {
-    display: inline-block;
+    display: inline;
     width: auto;
-    vertical-align: middle;
+    vertical-align: text-bottom;
+    text-align: left;
   }
   .form-inline .form-control-plaintext {
     display: inline-block;
@@ -4689,7 +4692,8 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link:hover, .navbar-dark .navbar-nav .nav-link:focus {
-  color: rgba(255, 255, 255, 0.75);
+    color: rgba(255, 255, 255, 0.75);
+    text-align: right;
 }
 
 .navbar-dark .navbar-nav .nav-link.disabled {
@@ -6763,7 +6767,7 @@ button.bg-light:focus {
 }
 
 .bg-dark {
-  background-color: #343a40 !important;
+  background-color: #FFFFFF !important;
 }
 
 a.bg-dark:hover, a.bg-dark:focus,

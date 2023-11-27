@@ -5,19 +5,27 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Saisie des notes</title>
-<link href="css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
+<link href="../projet-bulletin-main/css/bootstrap-4.4.1.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light"> <img class="navbar-brand" src="https://www.gastonberger.fr/wp-content/uploads/2015/01/logo-gb@2x.png" width="200">
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent1" aria-controls="navbarSupportedContent1" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
-  <div class="collapse navbar-collapse" id="navbarSupportedContent1">
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav mr-auto">
-      <li class="nav-item active"> <a class="nav-link" href="#">Accueil</a> </li>
+      <li class="nav-item active"> <a class="nav-link" href="#"><img src="../logo-gb@2x.png" width="215" alt=""/> <span class="sr-only">(current)</span></a> </li>
+      <li class="nav-item"> </li>
+      <li class="nav-item dropdown">
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown"> <a class="dropdown-item" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a> </div>
+      </li>
     </ul>
-</div>
+    <form class="form-inline my-2 my-lg-0">
+      <a class="nav-link" href="Bulletin - Accueil.html">Accueil</a><a class="nav-link" href="saisie.html">Saisie des notes</a><a class="nav-link" href="#">Bulletin</a>
+    </form>
+  </div>
 </nav>
-
 <h1 align="center">Saisie des notes</h1>
 <form>
   <div class="form-group col-xl-4 offset-xl-4" align="center">
@@ -41,11 +49,11 @@
   </div>
   <div align="center">
   <button type="submit" class="btn btn-primary" id="BoutonEnvoyer">Envoyer le bulletin</button>
-	</div>
+  </div>
 </form>
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/popper.min.js"></script>
-<script src="js/bootstrap-4.4.1.js"></script>
-<link rel="stylesheet" type="text/css" href="css/saisie.css">
+<script src="../projet-bulletin-main/js/jquery-3.4.1.min.js"></script>
+<script src="../projet-bulletin-main/js/popper.min.js"></script>
+<script src="../projet-bulletin-main/js/bootstrap-4.4.1.js"></script>
+<link rel="stylesheet" type="text/css" href="../projet-bulletin-main/css/saisie.css">
 </body>
 </html>
