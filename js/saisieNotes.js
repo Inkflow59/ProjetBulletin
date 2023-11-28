@@ -66,7 +66,10 @@ function saisieNotes() {
 		mention="Très bien"
 	}
 	
+	var tabLength=tab.length
+	
 	sessionStorage.setItem("notes",notesBase)
 	sessionStorage.setItem("moyenne",moyenne)
 	sessionStorage.setItem("mention",mention)
+	sessionStorage.setItem("nombreDeNotes",tabLength)
 	}
