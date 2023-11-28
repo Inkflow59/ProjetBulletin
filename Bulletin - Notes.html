@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Bulletin - Notes</title>
+<link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+<link href="css/affichage.css" rel="stylesheet">
+</head>
+	
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#"><img src="images/logo-gb@2x.png" width="215" alt=""/> <span class="sr-only">(current)</span></a>
+      </li>
+          <li class="nav-item"> </li>
+          <li class="nav-item dropdown">
+<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+<a class="nav-link" href="Bulletin - Accueil.html">Accueil</a><a class="nav-link" href="Bulletin - Candidat.html">Candidat&nbsp;</a> <a class="nav-link" href="#">Bulletin</a><a class="nav-link" href="#">Contact</a>
+    </form>
+  </div>
+</nav>
+<div><p id="AffichageNom"></p></div>
+<table width="200" border="1" id="Tableau">
+  <tbody>
+    <tr>
+      <td>&nbsp;</td>
+      <td>&nbsp;</td>
+    </tr>
+  </tbody>
+</table>
+
+</body>
+<script src="js/affichageNotes.js"></script>
+<script src="js/bootstrap-4.4.1.js"></script>
+<script src="js/jquery-3.4.1.min.js"></script>
+<script src="js/popper.min.js"></script> 
+<script>
+	NomCandidat()
+	tableauLignes()
+</script>
+</html>
