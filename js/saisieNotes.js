@@ -47,7 +47,11 @@ function saisieNotes() {
 		moyenne=moyenne+tabMoyenne[j]
 	}
 	moyenne=moyenne/longueurTotale
-	moyenne=moyenne.toPrecision(4)
+	if (moyenne<10) {
+		moyenne=moyenne.toPrecision(4)
+	}	else {
+		moyenne=moyenne.toPrecision(3)
+	}
 	
 	var mention=""
 	if (moyenne<10) {
