@@ -1,0 +1,2 @@
+function saisieNomCandidat() {}
+function affichageNotes() {}
