@@ -48,9 +48,9 @@ function saisieNotes() {
 	}
 	moyenne=moyenne/longueurTotale
 	if (moyenne<10) {
-		moyenne=moyenne.toPrecision(4)
-	}	else {
 		moyenne=moyenne.toPrecision(3)
+	}	else {
+		moyenne=moyenne.toPrecision(4)
 	}
 	
 	var mention=""
